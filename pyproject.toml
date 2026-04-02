@@ -1,0 +1,31 @@
+[project]
+name = "gh-branch-guard"
+version = "0.1.0"
+description = "CLI tool to audit and enforce GitHub branch protection settings across repositories."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+keywords = ["cli", "github", "branch protection", "security", "oss"]
+authors = [
+  { name = "Ashish Rudrawar", email = "noreply@example.com" }
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+dependencies = [
+  "click>=8.1",
+  "requests>=2.31"
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+ghguard = "gh_branch_guard.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
