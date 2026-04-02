@@ -31,6 +31,20 @@ make install
 ghguard audit --repo octocat/Hello-World
 ```
 
+## OSS health checks
+
+- [x] Active CI: `python-app.yml`
+- [x] Dependency updates: `dependabot.yml`
+- [x] Release tags: `release.yml`
+- [ ] Star target: 50+ (set goal)
+- [ ] Contributors target: 10+ (set goal)
+
+### Quick metrics snapshot
+
+```bash
+python scripts/oss_health.py --repo AshishRudrawar/gh-branch-guard
+```
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
