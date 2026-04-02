@@ -1,5 +1,9 @@
 # GH Branch Guard
 
+[![CI](https://github.com/AshishRudrawar/gh-branch-guard/actions/workflows/python-app.yml/badge.svg)](https://github.com/AshishRudrawar/gh-branch-guard/actions/workflows/python-app.yml)
+[![Dependabot](https://github.com/AshishRudrawar/gh-branch-guard/actions/workflows/dependabot.yml/badge.svg)](https://github.com/AshishRudrawar/gh-branch-guard/actions/workflows/dependabot.yml)
+[![Release](https://github.com/AshishRudrawar/gh-branch-guard/actions/workflows/release.yml/badge.svg)](https://github.com/AshishRudrawar/gh-branch-guard/actions/workflows/release.yml)
+
 `gh-branch-guard` is an open-source CLI tool that audits and enforces branch protection policies across GitHub repositories.
 
 ## Setup
